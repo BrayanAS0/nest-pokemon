@@ -9,9 +9,10 @@
 1. clonar repositorio
 2. ejecutar `npm install`
 3. ejecutar `npm run start:dev`
-4. abrir en el navegador `http://localhost:3000/`
-tener Nest CLI instalado
-`npm i -g @nestjs/cli`
+4.`npm i -g @nestjs/cli`
+tener Nest CLI instalado para levantar el docker-compose
+4.1 `docker-compose up -d`
+5. abrir en el navegador `http://localhost:3000/`
 
 ## Stack Usado
 - NestJS
