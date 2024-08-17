@@ -9,9 +9,12 @@
 1. clonar repositorio
 2. ejecutar `npm install`
 3. ejecutar `npm run start:dev`
-4.`npm i -g @nestjs/cli`
+4. `npm i -g @nestjs/cli`
 tener Nest CLI instalado para levantar el docker-compose
-4.1 `docker-compose up -d`
+4. `docker-compose up -d`
+5. Clonar el archivo ```.env.template```  y reombrar la copia a ```.env```
+6. Llenar las variables de entorno en el archivo .env
+7. ejecutar `npm run start:dev`
 5. abrir en el navegador `http://localhost:3000/`
 
 ## Stack Usado
@@ -19,4 +22,7 @@ tener Nest CLI instalado para levantar el docker-compose
 - MongoDB
 - Docker
 - Docker-compose
+
+6. reconstruir la base de datos con la semilla 
+ `http://localhost:3000/api/v2/seed`
 
